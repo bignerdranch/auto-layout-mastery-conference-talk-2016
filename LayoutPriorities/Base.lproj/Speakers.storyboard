@@ -57,7 +57,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFC-pC-uXE">
                                 <rect key="frame" x="176" y="267.5" width="384" height="150"/>
-                                <mutableString key="text">This talk begins by looking at some of the new debugging and reverse engineering tools that have recently appeared. Then we dive into documentation options and admonish you to leave a visible trail for the developer that inherits your code. Next, we will highlight strategies for adding testing to legacy code as well as how we have added testing to existing projects. Sprinkled throughout we will look at the most interesting and wierd bugs we've found during our recent explorations and offer advice on our thought process for figuring out their causes.</mutableString>
+                                <string key="text">This talk begins by looking at some of the new debugging and reverse engineering tools that have recently appeared. Then we dive into documentation options and admonish you to leave a visible trail for the developer that inherits your code. Next, we will highlight strategies for adding testing to legacy code as well as how we have added testing to existing projects. Sprinkled throughout we will look at the most interesting and wierd bugs we've found during our recent explorations and offer advice on our thought process for figuring out their causes.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -85,7 +85,7 @@
                             <constraint firstItem="qsh-K0-n3e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="23d-P6-SzE"/>
                             <constraint firstItem="aAk-Yv-BVn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uFk-dI-gcL" secondAttribute="bottom" priority="300" constant="40" id="2mO-M3-b9j"/>
                             <constraint firstItem="8eV-3R-F50" firstAttribute="top" secondItem="DiU-h4-Ef4" secondAttribute="bottom" constant="8" id="3la-fk-3sE"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aAk-Yv-BVn" secondAttribute="bottom" priority="250" constant="40" id="5qd-pB-KOE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aAk-Yv-BVn" secondAttribute="bottom" priority="250" constant="100" id="5qd-pB-KOE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8eV-3R-F50" secondAttribute="trailing" constant="20" id="6tc-fG-Axy"/>
                             <constraint firstItem="THE-kP-SXw" firstAttribute="top" secondItem="Atf-iL-SQp" secondAttribute="bottom" priority="900" constant="14" id="86J-J2-JPA"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="width" relation="lessThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="width" id="8BC-26-B5n"/>
