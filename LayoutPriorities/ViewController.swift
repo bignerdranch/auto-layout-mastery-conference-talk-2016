@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var labelLeadingConstraint: NSLayoutConstraint!
-    @IBOutlet var leadLabel: UILabel!
+    @IBOutlet var JonathanNameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,10 +23,10 @@ class ViewController: UIViewController {
     @IBAction func doThingsToConstraints(sender: UIButton) {
         switch labelLeadingConstraint.constant {
         case 100:
-            leadLabel.text = "Lead Me On"
+            JonathanNameLabel.text = "Lead Me On"
             labelLeadingConstraint.constant = 200
         case 200:
-            leadLabel.text = "JustPick1OK"
+            JonathanNameLabel.text = "JustPick1OK"
             labelLeadingConstraint.constant = 100
         case 191:
             print("why oh why")
