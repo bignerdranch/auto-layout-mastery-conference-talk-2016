@@ -20,16 +20,25 @@ class ViewController: UIViewController {
     }
 
     @IBAction func doThingsToConstraints(sender: UIButton) {
+        let newConstant: CGFloat
+        let newText: String
         switch topTitlePreferredSpacing.constant {
         case 80:
-            JonathanNameLabel.text = "Jonathan"
-            topTitlePreferredSpacing.constant = 160
+            newText = "Jonathan"
+            newConstant = 160
         case 160:
-            JonathanNameLabel.text = "Blocksom"
-            topTitlePreferredSpacing.constant = 80
+            newText = "Blocksom"
+            newConstant = 80
         default:
             fatalError("go away")
         }
+
+        self.JonathanNameLabel.text = newText
+        self.topTitlePreferredSpacing.constant = newConstant
+        UIView.animateWithDuration(2    ) {
+            self.view.layoutIfNeeded()
+        }
+
     }
 
 }
