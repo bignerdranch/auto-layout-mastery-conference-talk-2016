@@ -32,12 +32,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walter Tyree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFk-dI-gcL">
-                                <rect key="frame" x="49.5" y="428" width="97" height="21"/>
+                                <rect key="frame" x="49" y="428" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debugging and Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09g-gQ-PWu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Debugging and Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09g-gQ-PWu">
                                 <rect key="frame" x="392" y="239" width="178" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -110,6 +110,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aAk-Yv-BVn" secondAttribute="bottom" constant="8" id="gGO-pw-2Ua"/>
                             <constraint firstItem="09g-gQ-PWu" firstAttribute="top" secondItem="8eV-3R-F50" secondAttribute="bottom" constant="20" id="gey-TH-jzS"/>
                             <constraint firstItem="cr9-n4-kHy" firstAttribute="width" secondItem="Atf-iL-SQp" secondAttribute="width" id="ii8-KE-lT8"/>
+                            <constraint firstItem="cr9-n4-kHy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="THE-kP-SXw" secondAttribute="bottom" constant="8" id="mki-Ce-O8K"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cr9-n4-kHy" secondAttribute="trailing" constant="20" id="oYK-8x-XXa"/>
                             <constraint firstItem="aAk-Yv-BVn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tXv-E4-Rpw"/>
                             <constraint firstItem="THE-kP-SXw" firstAttribute="baseline" relation="lessThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="baseline" id="vU8-pQ-PG2"/>
