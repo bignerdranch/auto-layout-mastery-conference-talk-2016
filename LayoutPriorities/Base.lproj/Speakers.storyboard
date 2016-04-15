@@ -31,14 +31,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Walter Tyree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFk-dI-gcL">
-                                <rect key="frame" x="49" y="427.5" width="97" height="14.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walter Tyree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFk-dI-gcL">
+                                <rect key="frame" x="49" y="453.5" width="97" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" misplaced="YES" text="Debugging and Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09g-gQ-PWu">
-                                <rect key="frame" x="392" y="238.5" width="178" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Debugging and Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09g-gQ-PWu">
+                                <rect key="frame" x="392" y="264.5" width="178" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -55,8 +55,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="blocksom" translatesAutoresizingMaskIntoConstraints="NO" id="Atf-iL-SQp">
                                 <rect key="frame" x="40" y="72" width="115.5" height="142"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFC-pC-uXE">
-                                <rect key="frame" x="176" y="267.5" width="384" height="150"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFC-pC-uXE">
+                                <rect key="frame" x="176" y="293.5" width="384" height="150"/>
                                 <string key="text">This talk begins by looking at some of the new debugging and reverse engineering tools that have recently appeared. Then we dive into documentation options and admonish you to leave a visible trail for the developer that inherits your code. Next, we will highlight strategies for adding testing to legacy code as well as how we have added testing to existing projects. Sprinkled throughout we will look at the most interesting and wierd bugs we've found during our recent explorations and offer advice on our thought process for figuring out their causes.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -69,14 +69,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cocoaconf-logo" translatesAutoresizingMaskIntoConstraints="NO" id="aAk-Yv-BVn">
-                                <rect key="frame" x="75" y="452" width="450" height="108"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cocoaconf-logo" translatesAutoresizingMaskIntoConstraints="NO" id="aAk-Yv-BVn">
+                                <rect key="frame" x="75" y="484" width="450" height="108"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="KrJ-Bh-lTm"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" misplaced="YES" image="walter_tyree" translatesAutoresizingMaskIntoConstraints="NO" id="cr9-n4-kHy">
-                                <rect key="frame" x="40" y="272.5" width="115.5" height="140"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="walter_tyree" translatesAutoresizingMaskIntoConstraints="NO" id="cr9-n4-kHy">
+                                <rect key="frame" x="40" y="298.5" width="115.5" height="140"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99062076764324303" blue="0.97813394657093733" alpha="1" colorSpace="calibratedRGB"/>
@@ -99,8 +99,9 @@
                             <constraint firstItem="Atf-iL-SQp" firstAttribute="centerX" secondItem="cr9-n4-kHy" secondAttribute="centerX" id="KAZ-sg-WZx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DiU-h4-Ef4" secondAttribute="trailing" constant="10" id="KXm-U1-2xX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uFC-pC-uXE" secondAttribute="trailing" constant="20" id="Lwl-Fx-ugH"/>
+                            <constraint firstItem="DiU-h4-Ef4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" priority="350" constant="80" id="NHm-01-9R4"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="trailing" secondItem="8eV-3R-F50" secondAttribute="trailing" id="NgK-dU-ehH"/>
-                            <constraint firstItem="DiU-h4-Ef4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Ohg-UM-kHu"/>
+                            <constraint firstItem="DiU-h4-Ef4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Ohg-UM-kHu"/>
                             <constraint firstItem="8eV-3R-F50" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="QHz-vJ-nyq"/>
                             <constraint firstItem="aAk-Yv-BVn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Qob-eW-RUy"/>
                             <constraint firstItem="8eV-3R-F50" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Atf-iL-SQp" secondAttribute="trailing" constant="20" id="Rb4-Hk-TSl"/>
@@ -147,7 +148,7 @@
                     </view>
                     <connections>
                         <outlet property="JonathanNameLabel" destination="THE-kP-SXw" id="ee7-Ko-7z2"/>
-                        <outlet property="leadLabel" destination="THE-kP-SXw" id="3Ab-Zs-4M4"/>
+                        <outlet property="topTitlePreferredSpacing" destination="NHm-01-9R4" id="m8y-5M-MJE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

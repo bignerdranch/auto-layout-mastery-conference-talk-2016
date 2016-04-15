@@ -10,26 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var labelLeadingConstraint: NSLayoutConstraint!
+    @IBOutlet var topTitlePreferredSpacing: NSLayoutConstraint!
     @IBOutlet var JonathanNameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        labelLeadingConstraint.constant = 100
-
+        topTitlePreferredSpacing.constant = 80
     }
 
     @IBAction func doThingsToConstraints(sender: UIButton) {
-        switch labelLeadingConstraint.constant {
-        case 100:
-            JonathanNameLabel.text = "Lead Me On"
-            labelLeadingConstraint.constant = 200
-        case 200:
-            JonathanNameLabel.text = "JustPick1OK"
-            labelLeadingConstraint.constant = 100
-        case 191:
-            print("why oh why")
+        switch topTitlePreferredSpacing.constant {
+        case 80:
+            JonathanNameLabel.text = "Jonathan"
+            topTitlePreferredSpacing.constant = 160
+        case 160:
+            JonathanNameLabel.text = "Blocksom"
+            topTitlePreferredSpacing.constant = 80
         default:
             fatalError("go away")
         }
