@@ -20,25 +20,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jonathan Blocksom" textAlignment="natural" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="THE-kP-SXw">
-                                <rect key="frame" x="34" y="229" width="127" height="20.5"/>
+                                <rect key="frame" x="34" y="228" width="127" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Web Services in Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiU-h4-Ef4">
-                                <rect key="frame" x="404" y="40" width="166" height="21"/>
+                                <rect key="frame" x="404" y="40" width="166" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walter Tyree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFk-dI-gcL">
-                                <rect key="frame" x="49" y="453" width="97" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Walter Tyree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFk-dI-gcL">
+                                <rect key="frame" x="49" y="427.5" width="97" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Debugging and Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09g-gQ-PWu">
-                                <rect key="frame" x="392" y="239" width="178" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" misplaced="YES" text="Debugging and Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09g-gQ-PWu">
+                                <rect key="frame" x="392" y="238.5" width="178" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -51,39 +51,40 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="blocksom" translatesAutoresizingMaskIntoConstraints="NO" id="Atf-iL-SQp">
-                                <rect key="frame" x="40" y="73" width="115.5" height="142"/>
+                                <rect key="frame" x="40" y="72" width="115.5" height="142"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFC-pC-uXE">
-                                <rect key="frame" x="176" y="293" width="384" height="150"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFC-pC-uXE">
+                                <rect key="frame" x="176" y="267.5" width="384" height="150"/>
                                 <mutableString key="text">This talk begins by looking at some of the new debugging and reverse engineering tools that have recently appeared. Then we dive into documentation options and admonish you to leave a visible trail for the developer that inherits your code. Next, we will highlight strategies for adding testing to legacy code as well as how we have added testing to existing projects. Sprinkled throughout we will look at the most interesting and wierd bugs we've found during our recent explorations and offer advice on our thought process for figuring out their causes.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eV-3R-F50">
-                                <rect key="frame" x="176" y="69" width="384" height="150"/>
+                                <rect key="frame" x="176" y="68" width="384" height="150"/>
                                 <string key="text">Swift can be a great language for dealing with web requests, whether it is from within your app or on the server side. We'll take a look at some of the open source frameworks for implementing web services with Swift and peek under the covers to see how they work. Specific things we'll look at include serving static files, generating web pages, and proxying calls to another server.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cocoaconf-logo" translatesAutoresizingMaskIntoConstraints="NO" id="aAk-Yv-BVn">
-                                <rect key="frame" x="75" y="484" width="450" height="108"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cocoaconf-logo" translatesAutoresizingMaskIntoConstraints="NO" id="aAk-Yv-BVn">
+                                <rect key="frame" x="75" y="452" width="450" height="108"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="KrJ-Bh-lTm"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="walter_tyree" translatesAutoresizingMaskIntoConstraints="NO" id="cr9-n4-kHy">
-                                <rect key="frame" x="40" y="298" width="115.5" height="140"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" misplaced="YES" image="walter_tyree" translatesAutoresizingMaskIntoConstraints="NO" id="cr9-n4-kHy">
+                                <rect key="frame" x="40" y="272.5" width="115.5" height="140"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98335763720000002" blue="0.8582695374" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="DiU-h4-Ef4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qsh-K0-n3e" secondAttribute="trailing" constant="10" id="21e-gh-kx5"/>
                             <constraint firstItem="qsh-K0-n3e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="23d-P6-SzE"/>
+                            <constraint firstItem="aAk-Yv-BVn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uFk-dI-gcL" secondAttribute="bottom" priority="300" constant="40" id="2mO-M3-b9j"/>
                             <constraint firstItem="8eV-3R-F50" firstAttribute="top" secondItem="DiU-h4-Ef4" secondAttribute="bottom" constant="8" id="3la-fk-3sE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aAk-Yv-BVn" secondAttribute="bottom" priority="250" constant="40" id="5qd-pB-KOE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8eV-3R-F50" secondAttribute="trailing" constant="20" id="6tc-fG-Axy"/>
-                            <constraint firstItem="uFC-pC-uXE" firstAttribute="top" secondItem="09g-gQ-PWu" secondAttribute="bottom" priority="400" constant="100" id="79N-4n-1CS"/>
                             <constraint firstItem="THE-kP-SXw" firstAttribute="top" secondItem="Atf-iL-SQp" secondAttribute="bottom" priority="900" constant="14" id="86J-J2-JPA"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="width" relation="lessThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="width" id="8BC-26-B5n"/>
                             <constraint firstItem="Atf-iL-SQp" firstAttribute="centerX" secondItem="THE-kP-SXw" secondAttribute="centerX" id="8hd-aH-0pI"/>
@@ -105,6 +106,7 @@
                             <constraint firstItem="DiU-h4-Ef4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SY0-FX-k9N"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="height" relation="lessThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="height" id="Sv3-er-80B"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="leading" secondItem="8eV-3R-F50" secondAttribute="leading" id="X0a-Zs-nNV"/>
+                            <constraint firstItem="09g-gQ-PWu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="bottom" priority="400" constant="100" id="XKA-oy-D9A"/>
                             <constraint firstItem="THE-kP-SXw" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Atf-iL-SQp" secondAttribute="bottom" constant="5" id="aZK-mb-UzY"/>
                             <constraint firstItem="Atf-iL-SQp" firstAttribute="height" relation="lessThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="height" multiplier="0.95" id="avp-bc-q5o"/>
                             <constraint firstItem="09g-gQ-PWu" firstAttribute="trailing" secondItem="DiU-h4-Ef4" secondAttribute="trailing" id="bBn-SG-OmM"/>
@@ -112,10 +114,11 @@
                             <constraint firstItem="Atf-iL-SQp" firstAttribute="top" secondItem="qsh-K0-n3e" secondAttribute="bottom" constant="6" id="bgn-XQ-2Z2"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="height" relation="lessThanOrEqual" secondItem="cr9-n4-kHy" secondAttribute="height" multiplier="0.95" id="cSv-Pz-fMK"/>
                             <constraint firstItem="cr9-n4-kHy" firstAttribute="centerY" secondItem="uFC-pC-uXE" secondAttribute="centerY" id="fmh-uf-X3m"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aAk-Yv-BVn" secondAttribute="bottom" constant="8" id="gGO-pw-2Ua"/>
-                            <constraint firstItem="09g-gQ-PWu" firstAttribute="top" secondItem="8eV-3R-F50" secondAttribute="bottom" constant="20" id="gey-TH-jzS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="aAk-Yv-BVn" secondAttribute="bottom" constant="8" id="gGO-pw-2Ua"/>
+                            <constraint firstItem="09g-gQ-PWu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="bottom" constant="20" id="gey-TH-jzS"/>
                             <constraint firstItem="cr9-n4-kHy" firstAttribute="width" secondItem="Atf-iL-SQp" secondAttribute="width" id="ii8-KE-lT8"/>
                             <constraint firstItem="cr9-n4-kHy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="THE-kP-SXw" secondAttribute="bottom" constant="8" id="mki-Ce-O8K"/>
+                            <constraint firstItem="09g-gQ-PWu" firstAttribute="top" secondItem="8eV-3R-F50" secondAttribute="bottom" priority="200" constant="200" id="nUN-Qd-hqe"/>
                             <constraint firstItem="uFC-pC-uXE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cr9-n4-kHy" secondAttribute="trailing" constant="20" id="oYK-8x-XXa"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="aAk-Yv-BVn" secondAttribute="trailing" constant="10" id="rDw-6D-gh6"/>
                             <constraint firstItem="aAk-Yv-BVn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tXv-E4-Rpw"/>
@@ -124,7 +127,7 @@
                             <constraint firstItem="Atf-iL-SQp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="ygC-55-xyE"/>
                             <constraint firstItem="DiU-h4-Ef4" firstAttribute="top" secondItem="qsh-K0-n3e" secondAttribute="bottom" constant="-2" id="you-1n-qjf"/>
                             <constraint firstItem="Atf-iL-SQp" firstAttribute="width" relation="lessThanOrEqual" secondItem="8eV-3R-F50" secondAttribute="width" multiplier="0.3" id="yuZ-wA-2Gg"/>
-                            <constraint firstItem="uFC-pC-uXE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="09g-gQ-PWu" secondAttribute="bottom" constant="8" id="zf8-yl-van"/>
+                            <constraint firstItem="uFC-pC-uXE" firstAttribute="top" secondItem="09g-gQ-PWu" secondAttribute="bottom" constant="8" id="zf8-yl-van"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
