@@ -45,7 +45,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsh-K0-n3e">
                                 <rect key="frame" x="30" y="30" width="164" height="30"/>
-                                <state key="normal" title="Do things to constraints"/>
+                                <state key="normal" title="Do things to constraints">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="doThingsToConstraints:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ig5-7F-aA9"/>
                                 </connections>
@@ -77,7 +79,7 @@
                                 <rect key="frame" x="40" y="272.5" width="115.5" height="140"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.98335763720000002" blue="0.8582695374" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.99062076764324303" blue="0.97813394657093733" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="DiU-h4-Ef4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qsh-K0-n3e" secondAttribute="trailing" constant="10" id="21e-gh-kx5"/>
                             <constraint firstItem="qsh-K0-n3e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="23d-P6-SzE"/>
